@@ -1,4 +1,3 @@
-/* General container for the app */
 .App {
   text-align: center;
   display: flex;
@@ -9,16 +8,15 @@
   bottom: 0;
   right: 0;
   left: 0;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
 }
 
-/* Welcome Screen */
 .welcome-screen {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Take up the full screen height */
+  height: 100%; 
   text-align: center;
 }
 
@@ -49,7 +47,6 @@
   background-color: #0e7f63;
 }
 
-/* Chat Interface */
 .chat-interface {
   display: flex;
   flex: 1;
@@ -89,7 +86,6 @@
   overflow: hidden;
 }
 
-/* Remaining chat styles (same as before) */
 .chat-log {
   flex: 1;
   overflow-y: auto;
